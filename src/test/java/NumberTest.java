@@ -18,5 +18,11 @@ public class NumberTest {
 
 		assertEquals(18, this.number.getAddition());
 	}
+	
+	@Test
+	public void getSubtraction() {
 
+		assertEquals(0, this.number.getSubtraction());
+	}
+	
 }
