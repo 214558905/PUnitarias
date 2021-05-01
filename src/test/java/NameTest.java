@@ -11,13 +11,19 @@ public class NameTest {
 	@Before
 	public void Before() {
 		
-		this.name = new Name("Juan esta durmiendo");
+		this.name = new Name("Alex");
 	}
 
 	@Test
 	public void getLeght() {
 		
-		assertEquals(19, this.name.getLeght());
+		assertEquals(4, this.name.getLeght());
+	}
+	@Test
+	public void getReverse() {
+		
+		assertEquals("xelA", this.name.getReverse());
+		
 	}
 
 }
